@@ -5,7 +5,8 @@
 int main()
 {
     std::cout << "TASK A \n";
-    std::cout << "Box height: 4, Box width: 8";
+    std::cout << "Box width: 4, Box height: 8" <<'\n';
+    
     std::string a=box(4,8);
     std::cout << "-------------------------\n";
 
