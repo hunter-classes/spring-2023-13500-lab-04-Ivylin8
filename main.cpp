@@ -4,7 +4,7 @@
 #include "cross.h"
 #include "lower.h"
 #include "upper.h"
-
+#include "trapezoid.h"
 
 int main()
 {
@@ -33,7 +33,15 @@ int main()
     << upper(10) <<std::endl;
     std::cout << "-------------------------\n";
     
-
+    std::cout << "TASK F \n";
+    std::cout << "Width: 6 Length: 3 \n"
+    << trapezoid(6,3) <<std::endl;
+    std::cout << "-------------------------\n";
+    
+    std::cout << "TASK F \n";
+    std::cout << "Width: 6 Length: 12 \n"
+    << trapezoid(6,12) <<std::endl;
+    std::cout << "-------------------------\n";
 
 
 
