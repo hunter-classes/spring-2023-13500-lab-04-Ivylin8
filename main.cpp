@@ -3,6 +3,7 @@
 #include "checkerboard.h"
 #include "cross.h"
 #include "lower.h"
+#include "upper.h"
 
 
 int main()
@@ -22,11 +23,17 @@ int main()
     << cross(5) <<std::endl;
     std::cout << "-------------------------\n";
 
-    std::cout << "TASK D \n";
+     std::cout << "TASK D \n";
     std::cout << "Lower length: 6 \n"
     << lower(6) <<std::endl;
     std::cout << "-------------------------\n";
     
+    std::cout << "TASK E \n";
+    std::cout << "Side length: 10 \n"
+    << upper(10) <<std::endl;
+    std::cout << "-------------------------\n";
+    
+
 
 
 
