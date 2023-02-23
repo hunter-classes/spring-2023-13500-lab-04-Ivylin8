@@ -2,6 +2,7 @@
 #include "box.h"
 #include "checkerboard.h"
 #include "cross.h"
+#include "lower.h"
 
 
 int main()
@@ -20,6 +21,13 @@ int main()
     std::cout << "Cross size: 5 \n"
     << cross(5) <<std::endl;
     std::cout << "-------------------------\n";
+
+    std::cout << "TASK D \n";
+    std::cout << "Lower length: 6 \n"
+    << lower(6) <<std::endl;
+    std::cout << "-------------------------\n";
+    
+
 
 
 }
