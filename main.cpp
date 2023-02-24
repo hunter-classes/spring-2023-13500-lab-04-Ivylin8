@@ -14,24 +14,48 @@ int main()
     std::string a=box(4,8);
     std::cout << "-------------------------\n";
 
+    std::cout << "TASK A \n";
+    std::cout << "Box width: 2, Box height: 8" <<'\n';
+    std::string a=box(2,8);
+    std::cout << "-------------------------\n";
+
     std::cout << "TASK B \n";
     std::cout << "Checkerboard: width: 5, height :10 \n"
     << checkerboard(5,10) <<std::endl;
+    std::cout << "-------------------------\n";
+
+    std::cout << "TASK B \n";
+    std::cout << "Checkerboard: width: 2, height :4 \n"
+    << checkerboard(2,4) <<std::endl;
     std::cout << "-------------------------\n";
 
     std::cout << "TASK C \n";
     std::cout << "Cross size: 5 \n"
     << cross(5) <<std::endl;
     std::cout << "-------------------------\n";
+    std::cout << "TASK C \n";
+    std::cout << "Cross size: 8 \n"
+    << cross(8) <<std::endl;
+    std::cout << "-------------------------\n";
 
      std::cout << "TASK D \n";
     std::cout << "Lower length: 6 \n"
     << lower(6) <<std::endl;
     std::cout << "-------------------------\n";
+
+    std::cout << "TASK D \n";
+    std::cout << "Lower length: 10 \n"
+    << lower(10) <<std::endl;
+    std::cout << "-------------------------\n";
     
     std::cout << "TASK E \n";
     std::cout << "Side length: 10 \n"
     << upper(10) <<std::endl;
+    std::cout << "-------------------------\n";
+
+    std::cout << "TASK E \n";
+    std::cout << "Side length: 13 \n"
+    << upper(13) <<std::endl;
     std::cout << "-------------------------\n";
     
     std::cout << "TASK F \n";
@@ -49,6 +73,10 @@ int main()
     std::cout << "Width: 3, Length: 6 \n"
     << checkerboard3x3(3,6) <<std::endl;
     std::cout << "-------------------------\n";
-    
+
+    std::cout << "TASK G  \n";
+    std::cout << "Width: 9, Length: 6 \n"
+    << checkerboard3x3(9,6) <<std::endl;
+    std::cout << "-------------------------\n";
 
 }
