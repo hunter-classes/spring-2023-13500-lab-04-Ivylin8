@@ -10,13 +10,13 @@
 int main()
 {
     std::cout << "TASK A \n";
-    std::cout << "Box width: 4, Box height: 8" <<'\n';
-    std::string a=box(4,8);
+    std::cout << "Box: width: 2, height :6 \n"
+    << box(2,6) <<std::endl;
     std::cout << "-------------------------\n";
 
     std::cout << "TASK A \n";
-    std::cout << "Box width: 2, Box height: 8" <<'\n';
-    std::string a=box(2,8);
+    std::cout << "Box: width: 3, height :8 \n"
+    << box(3,8) <<std::endl;
     std::cout << "-------------------------\n";
 
     std::cout << "TASK B \n";
@@ -28,7 +28,6 @@ int main()
     std::cout << "Checkerboard: width: 2, height :4 \n"
     << checkerboard(2,4) <<std::endl;
     std::cout << "-------------------------\n";
-
     std::cout << "TASK C \n";
     std::cout << "Cross size: 5 \n"
     << cross(5) <<std::endl;
