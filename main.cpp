@@ -5,7 +5,7 @@
 #include "lower.h"
 #include "upper.h"
 #include "trapezoid.h"
-#include "checkerboard3x3"
+#include "checkerboard3x3.h"
 
 int main()
 {
